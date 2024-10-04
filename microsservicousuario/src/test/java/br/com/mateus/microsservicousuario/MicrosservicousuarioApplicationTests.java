@@ -1,10 +1,10 @@
-package br.com.mateus.microsservico;
+package br.com.mateus.microsservicousuario;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MicrosservicoApplicationTests {
+class MicrosservicousuarioApplicationTests {
 
 	@Test
 	void contextLoads() {
