@@ -16,5 +16,8 @@ public class ProdutoController {
     @GetMapping("/")
     public void index(){
         this.servico.salvar(new Produto(null,"Celular", "Samsung Galaxy", 2500.00));
+        this.servico.salvar(new Produto(null,"Notebook Lenovo", "Para estudantes", 3500.00));
+        this.servico.salvar(new Produto(null,"Playstation 5", "Nova Geração", 4000.00));
     }
+    
 }
