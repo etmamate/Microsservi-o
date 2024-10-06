@@ -1,4 +1,4 @@
-package br.com.mateus.microsservico.table;
+package br.com.mateus.usuario.microsservico_usuario.table;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -22,4 +22,6 @@ public class Usuario {
     private Integer id;
     @Column(name = "nome", nullable = false, length = 150)
     private String nome;
+    @Column(name = "sobrenome", nullable = false, length = 150)
+    private String sobrenome;
 }

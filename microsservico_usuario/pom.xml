@@ -8,10 +8,10 @@
 		<version>3.3.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.mateus.microsservico</groupId>
-	<artifactId>microsservicousuario</artifactId>
+	<groupId>br.com.mateus.usuario</groupId>
+	<artifactId>microsservico_usuario</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>microsservicousuario</name>
+	<name>microsservico_usuario</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
