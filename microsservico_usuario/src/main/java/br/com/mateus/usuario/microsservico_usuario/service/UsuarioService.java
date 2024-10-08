@@ -10,9 +10,9 @@ import br.com.mateus.usuario.microsservico_usuario.table.Usuario;
 @Service
 public class UsuarioService {
     @Autowired
-    private UsuarioRepository user_repo;
+    private UsuarioRepository userRepo;
 
     public void salvar(Usuario usuario){
-        this.user_repo.save(usuario);
+        this.userRepo.save(usuario);
     }
 }

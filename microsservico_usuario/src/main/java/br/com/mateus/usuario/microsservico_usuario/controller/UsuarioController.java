@@ -11,11 +11,11 @@ import br.com.mateus.usuario.microsservico_usuario.table.Usuario;
 public class UsuarioController {
     
     @Autowired
-    private UsuarioService user_service;
+    private UsuarioService userService;
 
     @GetMapping("/")
     public void index(){
-        this.user_service.salvar(new Usuario(null, "Mateus", "Cristo"));
-        this.user_service.salvar(new Usuario(null, "Fernando", "José"));
+        this.userService.salvar(new Usuario(null, "Mateus", "Cristo"));
+        this.userService.salvar(new Usuario(null, "Fernando", "José"));
     }
 }
